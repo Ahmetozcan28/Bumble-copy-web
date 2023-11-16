@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 700px) {
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  .head-left {
+    display: flex;
+    align-items: center;
+  }
+  .head-logo {
+    width: 150px;
+  }
+  .menu {
+    display: flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-items: center;
+  }
+  .body-picture {
+    height: 100vh;
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyfezOpIz_qQgke4eoiVcvYDQq-9_zhjvXlOfHX40BFxWnhT-OHviwVoayzBG5dP15g/")
+      center/cover;
+  }
+  .body-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .body-picture-popap {
+    width: calc(100% - 80px);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px 16px 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .download-button {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #ffc629;
+  }
+  .logo {
+    width: 30px;
+    height: 25px;
+    font-size: 25px;
+  }
+  .get-bumble {
+    font-weight: bold;
+  }
+
+  /*
+Section-title üstündeki divler için şu anlık bir 
+style verilmedi eğer verilecekse bu alana verilecek
+*/
+  .layout-mid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 100px;
+    width: calc(100% - 150px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-inclusive-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .layout-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .background-container {
+    height: 50vh;
+    position: relative;
+  }
+  .background-container[data-bg="1"] {
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyTnZPbxm3DYDS3lvGYcIFQ41N5x7PPnLMTilmNByxHGa8gZPyFrBA2DIiloGmS0vHA/")
+      center/cover;
+  }
+  .background-container[data-bg="2"] {
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyRxm9ORyv_DHxjqKaurwD_MJx8yO4E3hyz61yOtganrVd-U4dcA4txKmNjaWa6ajLg/")
+      center/cover;
+  }
+  .background-container[data-bg="3"] {
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyW6LybJjnw44e7P6Ab0n2aVpsZW2VY_Z_hFTCAJAHfmWq8SrB7m7SYGkwYGvpf88sQ/")
+      center/cover;
+  }
+  .background-container[data-bg="4"] {
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFybB2Ms32X1dByTvaFwXY8p1KV9nKrrSZc6pxQRjAMCFiycJUzevyDLzIwFV_P-Ysvw/")
+      center/cover;
+  }
+
+  .background-text {
+    position: absolute;
+    bottom: 65px;
+    background: #fff;
+    left: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+
+  .layout-text {
+    width: calc(100% - 100px);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bottom-button {
+    width: 120px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #ffc629;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  /* footer için yazılacak tüm cssler artık burada */
+  .main-footer {
+    margin-top: 50px;
+  }
+  .footer-background-image {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-image {
+    height: 80vh;
+    background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyYFjSaTHbrQohp3QGrB8K6u0rOZtRlih8huDlDxUK76-6yf8jArxeppypVlb6mt4zw/")
+      center/cover;
+  }
+  .footer-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: calc(100% - 25px);
+  }
+  .footer-button {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 16px;
+    border: none;
+    background-color: #ffc629;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .paginations {
+    width: calc(100% - 50%);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .js-slider-paginations {
+    display: flex;
+    gap: 5px;
+  }
+  .paginations-item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #fff;
+  }
+  .is-active {
+    background-color: #ffc629;
+    transform: scale(1.1);
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 50%);
+    margin-top: 30px;
+    height: 400px;
+  }
+  .footer-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .footer-logo img {
+    width: 200px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .social-media-logo {
+    font-size: 2.2rem;
+    color: #6b6b6b;
+  }
+  .footer-section-menu {
+    display: flex;
+    width: calc(100% - 50%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+
+.footer-captions {
+    height: 100px;
+    margin-top: 50px;
+}
+  .footer-captions-copyright {
+    text-align: center;
+  }
+}
