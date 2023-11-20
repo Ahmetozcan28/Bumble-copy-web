@@ -6,11 +6,12 @@ This project is a website that replicates the design of [Bumble](https://bumble.
 # Table of Contents
 
 - [Features](#features)
-* Screenshots
-* Technologies Used
-* Installation
-* Usage
-* Contributing
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
 
 
 # Features
