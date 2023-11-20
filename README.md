@@ -37,7 +37,9 @@ Caption: Desktop view of the website.
 
 # Technologies Used
 HTML5
+
 CSS3 (including Flexbox and Media Queries)
+
 Javascript
 
 # Installation
