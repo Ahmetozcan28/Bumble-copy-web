@@ -163,10 +163,18 @@ style verilmedi eğer verilecekse bu alana verilecek
   flex-direction: column;
   gap: 15px;
 }
+.transitons-div-footer {
+  display: flex;
+  min-width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+}
 .footer-image {
   height: 80vh;
+  transition: 1s all;
   background: url("https://eu1.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyYFjSaTHbrQohp3QGrB8K6u0rOZtRlih8huDlDxUK76-6yf8jArxeppypVlb6mt4zw/")
     center/cover;
+  min-width: 100%;
 }
 .footer-button-container {
   display: flex;
